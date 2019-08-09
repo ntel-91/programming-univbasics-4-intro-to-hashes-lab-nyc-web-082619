@@ -6,7 +6,10 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-  new = { :weekdays => "Tuesday" }
+  new = { :weekday => "Tuesday",
+          :month => "January" 
+    
+        }
 end
 
 def pioneer
